@@ -8,6 +8,7 @@
 - [安装libfranka,franka-ros,panda\_moveit\_config](#安装libfrankafranka-rospanda_moveit_config)
 - [下载franka\_panda\_description](#下载franka_panda_description)
 - [安装franka\_ros\_interface](#安装franka_ros_interface)
+- [安装panda\ robot](#安装panda robot)
 - [测试运行](#测试运行)
 
 ### 安装Linux系统
@@ -229,6 +230,19 @@ your_ip="172.16.0.1"     # 修改
 ROS_MASTER_IP=""
 
 ros_version="noetic"    # 修改 franka.sh文件
+```
+### 安装panda robot
+- install with pip
+```bash
+pip install panda-robot
+```
+- install with source
+```bash
+cd panda_ws/src
+git clone https://github.com/justagist/panda_robot.git
+cd ..
+carkin build
+source devel/setup.bash
 ```
 
 ### 测试运行

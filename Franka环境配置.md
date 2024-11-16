@@ -8,7 +8,7 @@
 - [安装libfranka,franka-ros,panda\_moveit\_config](#安装libfrankafranka-rospanda_moveit_config)
 - [下载franka\_panda\_description](#下载franka_panda_description)
 - [安装franka\_ros\_interface](#安装franka_ros_interface)
-- [安装panda\ robot](#安装panda\robot)
+- [安装panda\ robot](#安装panda-robot)
 - [测试运行](#测试运行)
 
 ### 安装Linux系统
